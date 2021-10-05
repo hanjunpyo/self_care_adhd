@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/drawable-v24/btn_green.xml" value="0.13055555555555556" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/drawable/botnavi_color.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/drawable/customborder.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/drawable/customborderx.xml" value="0.1421875" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/drawable/navi_color.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/drawable/navi_color1.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/drawable/navi_menu.xml" value="0.10185185185185185" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout-trackball/test.xml" value="0.31125" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/calendar.xml" value="0.2" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_degree1_result.xml" value="0.152" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_degree_1.xml" value="0.1" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_degree_11.xml" value="0.1" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_degree_110.xml" value="0.1296875" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_degree_111.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_degree_12.xml" value="0.264" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_degree_13.xml" value="0.2" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_degree_14.xml" value="0.176" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_degree_15.xml" value="0.1296875" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_degree_16.xml" value="0.1296875" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_degree_17.xml" value="0.1296875" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_degree_18.xml" value="0.1296875" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_degree_19.xml" value="0.1296875" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_degree_2.xml" value="0.1296875" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_degree_3.xml" value="0.1296875" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_tip1.xml" value="0.4" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_tip2.xml" value="0.152" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/con_tips.xml" value="0.1296875" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/concentration.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/conserta.xml" value="0.12239583333333333" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/game_tip.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/imp_game1.xml" value="0.1" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/imp_game2.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/imp_game3.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/imp_game4.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/imp_game5.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/imp_tip1.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/imp_tip2.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/imp_tips.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/implusivity.xml" value="0.176" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/medikinet.xml" value="0.264" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/meditation.xml" value="0.12239583333333333" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/menu.xml" value="0.1" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/menu_bottom.xml" value="0.12284701114488349" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/metadate.xml" value="0.12239583333333333" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/penid.xml" value="0.264" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/pills_menu.xml" value="0.12239583333333333" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/planner.xml" value="0.264" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/planner_fri.xml" value="0.1" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/planner_mon.xml" value="0.1" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/planner_sat.xml" value="0.1" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/planner_thu.xml" value="0.1" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/planner_tue.xml" value="0.1" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/layout/planner_wed.xml" value="0.1" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/menu/menu_bottom.xml" value="0.1" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/menu/menu_bottom_concentration.xml" value="0.1" />
+        <entry key="..\:/Users/sstkb/AndroidStudioProjects/self_care_adhd/app/src/main/res/menu/menu_bottom_next.xml" value="0.1296875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

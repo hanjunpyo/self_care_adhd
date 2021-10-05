@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="15"
+    android:background="#F5FFFA">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="10"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/flag_icon">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="9" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:padding="10dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="top"
+                android:padding="10dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:text="◆ 충동성의 억제 훈련은 올바르지 않은 보기를 선택"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="top"
+                android:padding="10dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:text="◆ 주기적인 훈련이 충동성 억제에 큰 도움"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="top"
+                android:padding="10dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:text="◆ 한 자리에 멈춰서 진행하는 것이 더욱 효과적"/>
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="top"
+                android:padding="10dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_200"
+                android:text="◆ 중요 일정 5~10분 전 수행하는 것을 권장"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

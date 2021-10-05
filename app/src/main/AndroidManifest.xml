@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.self_care_adhd">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Self_care_adhd">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".calendar">
+
+        </activity>
+        <activity android:name=".planner">
+
+
+        </activity>
+        <activity android:name=".planner_mon">
+
+
+        </activity>
+        <activity android:name=".planner_tue">
+
+
+        </activity>
+        <activity android:name=".planner_wed">
+
+
+        </activity>
+        <activity android:name=".planner_thu">
+
+
+        </activity>
+        <activity android:name=".planner_fri">
+
+
+        </activity>
+        <activity android:name=".planner_sat">
+
+
+        </activity>
+        <activity android:name=".con_tips">
+
+        </activity>
+        <activity android:name=".con_degree_1"></activity>
+        <activity android:name=".con_degree_11"></activity>
+        <activity android:name=".con_degree1_result"></activity>
+        <activity android:name=".con_degree_12"></activity>
+        <activity android:name=".con_degree_13"></activity>
+        <activity android:name=".con_degree_14"></activity>
+        <activity android:name=".imp_tips"></activity>
+        <activity android:name=".imp_game1"></activity>
+        <activity android:name=".meditation"></activity>
+        <activity android:name=".imp_game2"></activity>
+        <activity android:name=".imp_game3"></activity>
+        <activity android:name=".imp_game4"></activity>
+        <activity android:name=".penid"></activity>
+        <activity android:name=".medikinet"></activity>
+        <activity android:name=".metadate"></activity>
+        <activity android:name=".conserta"></activity>
+    </application>
+
+</manifest>

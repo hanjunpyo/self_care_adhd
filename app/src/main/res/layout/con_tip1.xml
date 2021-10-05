@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="15"
+    android:background="#F5FFFA">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="10"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/flag_icon">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="9" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:padding="10dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="top"
+                android:padding="10dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:text="◆ 해당 게임의 목표는 주의 집중력의 향상"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="top"
+                android:padding="10dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:text="◆ 총 5가지의 주의 집중력 게임으로 구성"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="top"
+                android:padding="10dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:text="◆ 스도쿠, 워즈퍼즐 등 사용법이 따로 존재하지 않음"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="top"
+            android:padding="10dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="◆ 난이도를 선택하여 바로 시작"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="top"
+                android:padding="10dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:text="◆ 주의집중력 향상을 위해 점수 기록은 존재하지 않음"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="top"
+                android:padding="10dp"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_200"
+                android:text="◆ 일과 시작 전 1분 정도 하는 것을 권장"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

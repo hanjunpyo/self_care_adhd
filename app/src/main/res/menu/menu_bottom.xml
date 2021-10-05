@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="#000000">
+
+    <item
+        android:id="@+id/menu1"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:checked="true"
+        android:title="일정"
+        android:icon="@drawable/calendar"
+        />
+
+    <item
+        android:id="@+id/menu2"
+        app:showAsAction="always"
+        android:icon="@drawable/brain"
+        android:enabled="true"
+        android:checked="false"
+        android:title="집중력"
+        />
+
+    <item
+        android:id="@+id/menu3"
+        app:showAsAction="always"
+        android:icon="@drawable/xicon"
+        android:enabled="true"
+        android:checked="false"
+        android:title="충동성"
+        />
+
+    <item
+        android:id="@+id/menu4"
+        app:showAsAction="always"
+        android:icon="@drawable/pills"
+        android:enabled="true"
+        android:checked="false"
+        android:title="약품"
+        />
+</menu>
