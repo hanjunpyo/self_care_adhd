@@ -24,11 +24,8 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="↗남동쪽"
-                android:textSize="60dp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:id="@+id/right_answer"
+                android:drawableStart="@drawable/dd"
+                android:id="@+id/wrong_1"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -38,10 +35,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="←왼쪽"
-                android:textSize="60dp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
+                android:drawableStart="@drawable/ll"
                 android:id="@+id/wrong_2"
                 />
             <LinearLayout
@@ -51,11 +45,8 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="↙남서쪽"
-                android:textSize="60dp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:id="@+id/wrong_1"
+                android:drawableStart="@drawable/rr"
+                android:id="@+id/wrong_3"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -64,11 +55,8 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="→오른쪽"
-                android:textSize="60dp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:id="@+id/wrong_3"
+                android:drawableStart="@drawable/ru"
+                android:id="@+id/right_answer"
                 />
         </RadioGroup>
     </LinearLayout>

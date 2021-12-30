@@ -24,10 +24,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="빨간색"
-                android:textSize="60dp"
-                android:textStyle="bold"
-                android:textColor="#FFFF00"
+                android:drawableStart="@drawable/y_r"
                 android:id="@+id/right_answer"
                 />
             <LinearLayout
@@ -38,10 +35,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="검정색"
-                android:textSize="60dp"
-                android:textStyle="bold"
-                android:textColor="#000000"
+                android:drawableStart="@drawable/b_b"
                 android:id="@+id/wrong_2"
                 />
             <LinearLayout
@@ -51,10 +45,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="파란색"
-                android:textSize="60dp"
-                android:textStyle="bold"
-                android:textColor="#0000ff"
+                android:drawableStart="@drawable/b2_b2"
                 android:id="@+id/wrong_1"
                 />
             <LinearLayout
@@ -64,10 +55,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="초록색"
-                android:textSize="60dp"
-                android:textStyle="bold"
-                android:textColor="#00ff00"
+                android:drawableStart="@drawable/g_g"
                 android:id="@+id/wrong_3"
                 />
         </RadioGroup>

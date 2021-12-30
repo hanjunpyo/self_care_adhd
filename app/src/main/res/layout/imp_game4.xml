@@ -24,11 +24,8 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="검정색"
-                android:textSize="60dp"
-                android:textStyle="bold"
-                android:textColor="#000000"
-                android:id="@+id/wrong_1"
+                android:drawableStart="@drawable/r_r"
+                android:id="@+id/wrong_2"
                 />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -38,37 +35,28 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="분홍색"
-                android:textSize="60dp"
-                android:textStyle="bold"
-                android:textColor="#FF1493"
-                android:id="@+id/wrong_2"
-                />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"/>
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="노란색"
-                android:textSize="60dp"
-                android:textStyle="bold"
-                android:textColor="#ffff00"
-                android:id="@+id/wrong_3"
-                />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"/>
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="보라색"
-                android:textSize="60dp"
-                android:textStyle="bold"
-                android:textColor="#ff0000"
+                android:drawableStart="@drawable/g_r"
                 android:id="@+id/right_answer"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/b_b"
+                android:id="@+id/wrong_1"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/y_y"
+                android:id="@+id/wrong_3"
                 />
         </RadioGroup>
     </LinearLayout>

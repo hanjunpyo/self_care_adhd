@@ -19,13 +19,14 @@ public class MainActivity extends AppCompatActivity {
     concentration concentration;
     pills_menu pills_menu;
 
+    /*
     //모든 쉐어드 프리퍼런스 선언(초기화를 위해서)
     SharedPreferences pref_d1;
     SharedPreferences.Editor editor_d1;
     SharedPreferences pref_d2;
     SharedPreferences.Editor editor_d2;
     SharedPreferences pref_d3;
-    SharedPreferences.Editor editor_d3;
+    SharedPreferences.Editor editor_d3;*/
 
 
     @Override
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         botnavi = findViewById(R.id.navi1);
 
 
-
+        /*
         //쉐어드프리퍼런스 초기화
         pref_d1 = getSharedPreferences("con_d1", MODE_PRIVATE);
         editor_d1 = pref_d1.edit();
@@ -48,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         editor_d3.putInt("con_d3_c", 0);
         editor_d1.putInt("con_d1_step", 0);
         editor_d2.putInt("con_d2_step", 0);
-        editor_d3.putInt("con_d3_step", 0);
+        editor_d3.putInt("con_d3_step", 0);*/
 
 
         //프래그먼트 생성

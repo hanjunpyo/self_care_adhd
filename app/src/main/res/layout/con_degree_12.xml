@@ -19,7 +19,7 @@
         android:orientation="vertical"
         android:weightSum="10"
         >
-        <LinearLayout
+        <!--<LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="2"
@@ -42,7 +42,7 @@
                     android:layout_height="match_parent"
                     android:textStyle="bold"
                     android:textSize="15dp"
-                    android:text="3"
+                    android:text="4"
                     android:layout_gravity="center"
                     android:gravity="center"/>
 
@@ -58,7 +58,7 @@
                     android:layout_height="match_parent"
                     android:textStyle="bold"
                     android:textSize="15dp"
-                    android:text="4"
+                    android:text="3"
                     android:layout_gravity="center"
                     android:gravity="center"/>
             </LinearLayout>
@@ -151,54 +151,6 @@
                     android:layout_height="match_parent"
                     android:textStyle="bold"
                     android:textSize="15dp"
-                    android:text="3"
-                    android:layout_gravity="center"
-                    android:gravity="center"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:background="@drawable/customborder"
-                >
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textStyle="bold"
-                    android:textSize="15dp"
-                    android:text="4"
-                    android:layout_gravity="center"
-                    android:gravity="center"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            android:weightSum="12"
-            android:orientation="horizontal">
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                />
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:background="@drawable/customborder"
-                >
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textStyle="bold"
-                    android:textSize="15dp"
                     android:text="4"
                     android:layout_gravity="center"
                     android:gravity="center"/>
@@ -215,36 +167,6 @@
                     android:textStyle="bold"
                     android:textSize="15dp"
                     android:text="3"
-                    android:layout_gravity="center"
-                    android:gravity="center"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:background="@drawable/customborder"
-                >
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textStyle="bold"
-                    android:textSize="15dp"
-                    android:text="1"
-                    android:layout_gravity="center"
-                    android:gravity="center"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:background="@drawable/customborder"
-                >
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textStyle="bold"
-                    android:textSize="15dp"
-                    android:text="2"
                     android:layout_gravity="center"
                     android:gravity="center"/>
             </LinearLayout>
@@ -307,10 +229,43 @@
                     android:layout_height="match_parent"
                     android:textStyle="bold"
                     android:textSize="15dp"
+                    android:text="3"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/customborder"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
                     android:text="4"
                     android:layout_gravity="center"
                     android:gravity="center"/>
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:weightSum="12"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                />
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -330,9 +285,66 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
+                android:background="@drawable/customborder"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:text="4"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/customborder"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:text="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/customborder"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:text="2"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
                 />
 
+        </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+
         </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/q_3"/>
 
 
     </LinearLayout>
@@ -355,14 +367,14 @@
                 android:padding="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/wrong_2"
+                android:id="@+id/right_answer"
                 android:text="1"
                 android:textSize="20dp"></RadioButton>
             <RadioButton
                 android:padding="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/right_answer"
+                android:id="@+id/wrong_2"
                 android:text="2"
                 android:textSize="20dp"></RadioButton>
             <RadioButton

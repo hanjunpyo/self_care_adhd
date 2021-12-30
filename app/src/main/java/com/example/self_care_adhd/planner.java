@@ -43,23 +43,6 @@ public class planner extends AppCompatActivity {
         setContentView(R.layout.planner);
         Intent intent = getIntent();
 
-        //라디오그룹 불러오기
-        alarm_check = (RadioGroup)findViewById(R.id.alarm_check);
-
-        //라디오 체크 확인
-        alarm_check.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup group, int checkedId) {
-                if(checkedId == R.id.alarm_y){
-                    check_radio = 1;
-                }else if(checkedId == R.id.alarm_n){
-                    check_radio = 2;
-                }else{
-                    check_radio = 3;
-                }
-            }
-        });
-
 
         //쉐어드 프리퍼런스 초기화
         pref = getSharedPreferences("planner1", MODE_PRIVATE);

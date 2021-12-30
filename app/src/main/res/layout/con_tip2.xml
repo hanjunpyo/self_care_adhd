@@ -84,7 +84,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="올바른 사용을 권장합니다!!"
+                android:text="최대한 빠른 시간내에 푸는 것이 목표!"
                 android:textSize="25dp"
                 android:textStyle="bold" />
 

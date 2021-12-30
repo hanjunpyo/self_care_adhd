@@ -15,6 +15,7 @@ public class con_degree1_result extends AppCompatActivity {
     LinearLayout to_main, check_result_d1;
 
     int d1_result;
+    int get_o;
 
     //쉐어드 프리퍼런스
     SharedPreferences pref_d1;
@@ -25,6 +26,7 @@ public class con_degree1_result extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.con_degree1_result);
         Intent intent = getIntent();
+        get_o = getIntent().getIntExtra("get_o", 10);
 
 
         //쉐어드 프리퍼런스 초기화
@@ -45,7 +47,7 @@ public class con_degree1_result extends AppCompatActivity {
         check_result_d1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                result_d1.setText("점수 : "+ d1_result);
+                result_d1.setText("점수 : "+ get_o);
 
             }
         });

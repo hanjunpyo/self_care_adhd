@@ -17,8 +17,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".calendar">
+        <!--<activity android:name=".calendar"></activity>-->
+        <activity android:name=".start_activity">
 
         </activity>
         <activity android:name=".planner">
@@ -58,6 +60,53 @@
         <activity android:name=".con_degree_12"></activity>
         <activity android:name=".con_degree_13"></activity>
         <activity android:name=".con_degree_14"></activity>
+        <activity android:name=".con_degree_15"></activity>
+        <activity android:name=".con_degree_16"></activity>
+        <activity android:name=".con_degree_17"></activity>
+        <activity android:name=".con_degree_18"></activity>
+        <activity android:name=".con_degree_19"></activity>
+        <activity android:name=".con_degree_110"></activity>
+        <activity android:name=".con_degree_111"></activity>
+        <activity android:name=".con_degree_2"></activity>
+        <activity android:name=".con_degree_21"></activity>
+        <activity android:name=".con_degree_22"></activity>
+        <activity android:name=".con_degree_23"></activity>
+        <activity android:name=".con_degree_24"></activity>
+        <activity android:name=".con_degree_25"></activity>
+        <activity android:name=".con_degree_26"></activity>
+        <activity android:name=".con_degree_27"></activity>
+        <activity android:name=".con_degree_28"></activity>
+        <activity android:name=".con_degree_29"></activity>
+        <activity android:name=".con_degree_210"></activity>
+        <activity android:name=".con_degree_211"></activity>
+        <activity android:name=".con_degree_212"></activity>
+        <activity android:name=".con_degree_213"></activity>
+        <activity android:name=".con_degree_214"></activity>
+        <activity android:name=".con_degree_215"></activity>
+        <activity android:name=".con_degree_3"></activity>
+        <activity android:name=".con_degree_31"></activity>
+        <activity android:name=".con_degree_32"></activity>
+        <activity android:name=".con_degree_33"></activity>
+        <activity android:name=".con_degree_34"></activity>
+        <activity android:name=".con_degree_35"></activity>
+        <activity android:name=".con_degree_36"></activity>
+        <activity android:name=".con_degree_37"></activity>
+        <activity android:name=".con_degree_38"></activity>
+        <activity android:name=".con_degree_39"></activity>
+        <activity android:name=".con_degree_310"></activity>
+        <activity android:name=".con_degree_311"></activity>
+        <activity android:name=".con_degree_312"></activity>
+        <activity android:name=".con_degree_313"></activity>
+        <activity android:name=".con_degree_314"></activity>
+        <activity android:name=".con_degree_315"></activity>
+        <activity android:name=".con_degree_316"></activity>
+        <activity android:name=".con_degree_317"></activity>
+        <activity android:name=".con_degree_318"></activity>
+        <activity android:name=".con_degree_319"></activity>
+        <activity android:name=".con_degree_320"></activity>
+        <activity android:name=".con_degree_321"></activity>
+        <activity android:name=".con_degree_322"></activity>
+        <activity android:name=".con_degree_323"></activity>
         <activity android:name=".imp_tips"></activity>
         <activity android:name=".imp_game1"></activity>
         <activity android:name=".meditation"></activity>

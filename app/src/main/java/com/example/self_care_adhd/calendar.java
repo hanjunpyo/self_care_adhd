@@ -31,6 +31,12 @@ public class calendar extends Fragment{
     TextView plan_month;
     LinearLayout plan_check;
 
+    //오늘 날짜 띄우기위함
+    long today = System.currentTimeMillis();
+    Date mDate = new Date(today);
+    SimpleDateFormat simpleDate = new SimpleDateFormat("yyyy년mm월dd일");
+    String getToday = simpleDate.format(mDate);
+
     String test_week;
     long day_week;
     Calendar calendar_for_week;
@@ -39,40 +45,28 @@ public class calendar extends Fragment{
 
 
 
-
-
-
-
-
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
         viewGroup = (ViewGroup) inflater.inflate(R.layout.calendar, container, false);
 
-        //viewgroup에서 값 가져오기
+        //viewgroup에서 변수 가져오기
         plan_month = viewGroup.findViewById(R.id.plan_month);
         plan_calendar = viewGroup.findViewById(R.id.plan_calendar);
         plan_check = viewGroup.findViewById(R.id.plan_check);
         plan_check.setClickable(true);
-
         Bundle bundle = getArguments();
 
+        //시작 시 오늘날짜 띄우기
+        plan_month.setText(getToday);
+
+
+        //캘린더 에서 날짜 가져오기
         date = new Date();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyymmdd");
         calendar_for_week = Calendar.getInstance();
 
 
-
-        //월변환
-
-
-        //plan_month.setText(formatter.format(date));
-
-
-        //Calendar calendar = Calendar.getInstance();
-        //day_week = calendar.get(Calendar.DAY_OF_WEEK);
-        //day_week = calendar.get(Calendar.DAY_OF_WEEK);
 
 
         plan_calendar.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
@@ -101,38 +95,6 @@ public class calendar extends Fragment{
         });
 
 
-
-
-
-
-
-
-
-
-
-        /*
-        String day_week_check = String.valueOf(day_week);
-
-        DateFormat dateFormat = new SimpleDateFormat("yyyymmdd");
-        try {
-            Date date = dateFormat.parse(day_week_check);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        System.out.println(day_week);
-        */
-
-
-    /*
-        plan_check.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent intent = new Intent(getActivity(), planner.class);
-                startActivity(intent);
-            }
-        });
-    */
 
 
 

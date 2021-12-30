@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="15"
-    android:background="@color/bg_color"
-    android:orientation="vertical">
-
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:background="#F5FFFA">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,53 +15,43 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="8"
-        android:weightSum="10"
+        android:layout_weight="5"
         android:orientation="vertical"
+        android:weightSum="10"
         >
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="5"
-            >
+            android:layout_weight="4"
+            android:orientation="vertical">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textStyle="bold"
-                android:text="외않되"
-                android:textSize="70dp"
-                android:textColor="@color/black"
                 android:layout_gravity="center"
-                android:gravity="center"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="2"
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="left"
-                android:padding="15dp"
-                android:text=" 올바른 맞춤법을 골라주세요"
-                android:textColor="#FF0000"
-                android:textSize="25dp"
-                android:textStyle="bold" />
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#ff0000"
+                android:text="맞춤법을 맞게 고치시오"/>
 
         </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/q_4"/>
+
+
+
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:weightSum="12"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        >
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,36 +61,37 @@
             android:orientation="horizontal"
             >
             <RadioButton
-                android:padding="5dp"
+                android:padding="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:id="@+id/wrong_2"
-                android:text="왜않돼"
-                android:textSize="20dp"></RadioButton>
-            <RadioButton
-                android:padding="5dp"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:id="@+id/wrong_3"
-                android:text="왜않되"
-                android:textSize="20dp"></RadioButton>
-            <RadioButton
-                android:padding="5dp"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:id="@+id/wrong_1"
                 android:text="외안돼"
                 android:textSize="20dp"></RadioButton>
             <RadioButton
-                android:padding="5dp"
+                android:padding="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/wrong_1"
+                android:text="왜않돼"
+                android:textSize="20dp"></RadioButton>
+            <RadioButton
+                android:padding="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:id="@+id/right_answer"
                 android:text="왜안돼"
                 android:textSize="20dp"></RadioButton>
+            <!--<RadioButton
+                android:padding="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/wrong_3"
+                android:text="항산화"
+                android:textSize="20dp"></RadioButton>-->
 
 
         </RadioGroup>
+
 
     </LinearLayout>
     <LinearLayout
@@ -131,5 +123,9 @@
                 android:textColor="@color/white"/>
         </LinearLayout>
     </LinearLayout>
+
+
+
+
 
 </LinearLayout>

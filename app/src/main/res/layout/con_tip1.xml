@@ -69,7 +69,7 @@
                 android:padding="10dp"
                 android:textSize="17dp"
                 android:textStyle="bold"
-                android:text="◆ 총 5가지의 주의 집중력 게임으로 구성"/>
+                android:text="◆ 총 7가지의 주의 집중력 게임으로 구성"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
                 android:padding="10dp"
                 android:textSize="17dp"
                 android:textStyle="bold"
-                android:text="◆ 스도쿠, 워즈퍼즐 등 사용법이 따로 존재하지 않음"/>
+                android:text="◆ 스도쿠, 워즈퍼즐 등은 사용법이 따로 존재하지 않음"/>
             <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -106,7 +106,7 @@
                 android:textSize="17dp"
                 android:textStyle="bold"
                 android:textColor="@color/purple_200"
-                android:text="◆ 일과 시작 전 1분 정도 하는 것을 권장"/>
+                android:text="◆ 일과 시작 전 짧게 하는 것을 권장"/>
 
         </LinearLayout>
 

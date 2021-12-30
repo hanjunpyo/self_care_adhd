@@ -32,33 +32,12 @@ public class planner_thu extends AppCompatActivity {
     //버튼
     LinearLayout add_plan_thu, back_to_calendar_thu;
 
-    //알람 라디오버튼 및 버튼 확인 위한 변수
-    RadioGroup alarm_check_thu;
-    int check_radio_thu = 1;
-    TextView test1;
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.planner_thu);
         Intent intent_thu = getIntent();
 
-        //라디오그룹 불러오기
-        alarm_check_thu = (RadioGroup)findViewById(R.id.alarm_check_thu);
-        test1 = findViewById(R.id.test1);
-        //라디오 체크 확인
-        alarm_check_thu.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup group, int checkedId) {
-                if(checkedId == R.id.alarm_y_thu){
-                    check_radio_thu = 1;
-                }else if(checkedId == R.id.alarm_n_thu){
-                    check_radio_thu = 2;
-                }else{
-                    check_radio_thu = 3;
-                }
-            }
-        });
 
 
         //쉐어드 프리퍼런스 초기화

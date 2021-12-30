@@ -29,15 +29,8 @@ public class imp_game2 extends AppCompatActivity {
                 if(checkedId == R.id.right_answer){
                     check_radio = 1;
                     System.out.println(check_radio);
-                }else if(checkedId == R.id.wrong_1){
+                }else{
                     check_radio = 2;
-                    System.out.println(check_radio);
-                }else if(checkedId == R.id.wrong_2){
-                    check_radio = 3;
-                    System.out.println(check_radio);
-                }else if(checkedId == R.id.wrong_3){
-                    check_radio = 4;
-                    System.out.println(check_radio);
                 }
 
             }
@@ -61,14 +54,12 @@ public class imp_game2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(check_radio == 1){
-                    Toast.makeText(getApplicationContext(), "정답입니다.", Toast.LENGTH_LONG).show();
-                    Intent intent_nextO = new Intent(imp_game2.this, imp_game3.class);
-                    startActivity(intent_nextO);
+                    Toast.makeText(getApplicationContext(), "정답입니다.", Toast.LENGTH_SHORT).show();
                 }else{
-                    Toast.makeText(getApplicationContext(), "오답입니다.", Toast.LENGTH_LONG).show();
-                    Intent intent_nextX = new Intent(imp_game2.this, imp_game3.class);
-                    startActivity(intent_nextX);
+                    Toast.makeText(getApplicationContext(), "오답입니다.", Toast.LENGTH_SHORT).show();
                 }
+                Intent intent_next = new Intent(imp_game2.this, imp_game3.class);
+                startActivity(intent_next);
             }
         });
 
